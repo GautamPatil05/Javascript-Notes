@@ -34,5 +34,29 @@ const myFunction = function() {
     console.log("This is an function");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+
+// *******************************************************************************
+
+// Stack(premitive), Heap(non premititve)
+
+let myname = "Gautam";
+let anothername = myname
+anothername = "Patil"
+
+console.log(myname);
+console.log(anothername);
+
+let obj = {
+    email: "abc@gmail.com",
+    pass: "abcx",
+}
+
+let anotherObj = obj
+
+anotherObj.email = "xyz@gmail.com"
+
+console.log(obj.email);
+console.log(anotherObj.email);
 
