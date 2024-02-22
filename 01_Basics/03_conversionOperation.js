@@ -7,7 +7,6 @@ let valueNumber = Number(score)
 console.log(typeof valueNumber)
 console.log(valueNumber)
 
-
 // "33" => 33
 // "33abc" => NaN
 // true => 1; false => 0
@@ -34,12 +33,19 @@ let negValue = -value
 // console.log(2**2)
 // console.log(2%2)
 
-let str1 = "Gautam"
-let str2 = " Patil"
-let str3 = str1 + str2
-console.log(str3);
+// let str1 = "Gautam"
+// let str2 = " Patil"
+// let str3 = str1 + str2
+// console.log(str3);
 
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 1 + 2)
-console.log(1 + 2 + "2")
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 1 + 2)
+// console.log(1 + 2 + "2")
+
+// console.log(+true)
+// console.log(+false)
+
+let count = 100
+count++
+console.log(count);
