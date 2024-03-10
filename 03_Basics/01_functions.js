@@ -46,7 +46,7 @@ function calculateCartPrice(val1, val2, ...num1){ // it is rest opeartor here
 console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "gp",
     prices: 199
 }
 
@@ -56,7 +56,7 @@ function handleObject(anyobject){
 
 // handleObject(user)
 handleObject({
-    username: "sam",
+    username: "gp",
     price: 399
 })
 
