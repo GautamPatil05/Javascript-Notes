@@ -20,10 +20,10 @@ const JSuser = {
 // ways to access the data of objects
 
 // console.log(JSuser.email); // way 1 to access object
-// console.log(JSuser["email"]); way 2
+// console.log(JSuser["email"]); way 2 to access object (no dot here)
 // console.log(JSuser["full name"]); // cannot access by 'JSuser.full name'
 
-// console.log(JSuser[mySym]); // printing symbol value
+// console.log(JSuser[mySym]); // printing symbol value (no double quote here)
 // console.log(typeof JSuser[mySym]); // printing symbol value
 
 JSuser.email = "gautam@mahendra.com"
