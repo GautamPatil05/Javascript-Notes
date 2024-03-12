@@ -36,7 +36,7 @@ function loginUserMessage(username = "User"){
 }
 
 // console.log(loginUserMessage("Gautam"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("Sammy"))
 
 
 function calculateCartPrice(val1, val2, ...num1){ // it is rest opeartor here
