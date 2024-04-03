@@ -3,7 +3,7 @@
 // 1. Used when we want to immediately execute the function
 // 2. Used to avoid the noise created in global variable
 
-// syntax - ()()
+// syntax - (function)();
 
 //! Named IIFE
 (function chai() {
@@ -13,6 +13,6 @@
 //! Un-Named IIFe
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
-}) ("gautam")
+}) ("gautam");
 
 // consider brackets same as functions
