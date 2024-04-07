@@ -6,7 +6,6 @@ for (let i = 0; i <= 10; i++) {
         //console.log("5 is best number");
     }
     //console.log(element);
-    
 }
 
 // console.log(element);
@@ -26,7 +25,6 @@ for (let index = 0; index < myArray.length; index++) {
     //console.log(element);
     
 }
-
 
 // break and continue
 

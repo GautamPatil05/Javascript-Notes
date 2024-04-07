@@ -7,8 +7,6 @@ if (true) {
     
 }
 
-
-
 // console.log(a);
 // console.log(b);
 // console.log(c);
@@ -49,8 +47,6 @@ console.log(addone(5))
 function addone(num){
     return num + 1
 }
-
-
 
 // addTwo(5) // throws error cause addTwo is taking av
 const addTwo = function(num){
