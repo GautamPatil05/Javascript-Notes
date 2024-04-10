@@ -65,16 +65,7 @@ body {
     border-top: 1px solid #ccc;
     padding-top: 10px;
   }
-  
-  /* Interactive styling */
-  #results {
-    display: none; /* Hide results by default */
-  }
-  
-  .result-visible #results {
-    display: block; /* Show results when class is applied */
-  }
-  
+
   .result-visible button {
     margin-top: 10px; /* Add space between button and results */
   }
