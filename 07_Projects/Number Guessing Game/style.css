@@ -1,92 +1,101 @@
+/* General styles */
 html {
-    font-family: sans-serif;
-  }
-  
-  body {
-    width: 300px;
-    max-width: 750px;
-    min-width: 480px;
-    margin: 0 auto;
-    background-color: #212121;
-  }
-  
-  .lastResult {
-    color: white;
-    padding: 7px;
-  }
-  
-  .guesses {
-    color: white;
-    padding: 7px;
-  }
-  
-  button {
-    background-color: #141414;
-    color: #fff;
-    width: 250px;
-    height: 50px;
-    border-radius: 25px;
-    font-size: 30px;
-    border-style: none;
-    margin-top: 30px;
-    /* margin-left: 50px; */
-  }
-  
-  #subt {
-    background-color: #161616;
-    color: #ffffff;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 20px;
-    border-style: none;
-    margin-top: 50px;
-    /* margin-left: 75px; */
-  }
-  
-  #guessField {
-    color: #000;
-    width: 250px;
-    height: 50px;
-    font-size: 30px;
-    border-style: none;
-    margin-top: 25px;
-  
-    /* margin-left: 50px; */
-    border: 5px solid #6c6d6d;
-    text-align: center;
-  }
-  
-  #guess {
-    font-size: 55px;
-    /* margin-left: 90px; */
-    margin-top: 120px;
-    color: #fff;
-  }
-  
-  .guesses {
-    background-color: #7a7a7a;
-  }
-  
-  #wrapper {
-    box-sizing: border-box;
-    text-align: center;
-    width: 450px;
-    height: 550px;
-    background-color: #474747;
-    color: #fff;
-    font-size: 25px;
-  }
-  
-  h1 {
-    background-color: #161616;
-  
-    color: #fff;
-    text-align: center;
-  }
-  
-  p {
-    font-size: 16px;
-    text-align: center;
-  }
-  
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f0f0f0; /* Changed background color */
+  padding: 20px;
+}
+
+button, input[type="submit"] {
+  width: 250px;
+  height: 50px;
+  font-size: 24px; /* Adjusted font size */
+  border-style: none;
+  margin-top: 30px;
+  color: #fff;
+}
+
+button {
+  background-color: #4CAF50; /* Changed button color */
+  border-radius: 25px;
+  cursor: pointer; /* Added cursor */
+  transition: background-color 0.3s ease; /* Added transition */
+}
+
+button:hover {
+  background-color: #45a049; /* Hover state color */
+}
+
+#subt {
+  background-color: #2196F3; /* Changed submit button color */
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 20px; /* Adjusted margin-top */
+  display: block; /* Added to force the button to be on a new line */
+  margin: 0 auto; /* Center the button */
+}
+
+input[type="text"] {
+  width: 70px; /* Set width to match the button */
+  height: 50px;
+  color: #000;
+  border: 5px solid #ccc; /* Adjusted border color */
+  text-align: center;
+  font-size: 24px; /* Adjusted font size */
+  border-radius: 10px; /* Added border-radius */
+  transition: border-color 0.3s ease; /* Added transition */
+  display: block; /* Added to force the input to be on a new line */
+  margin: 10px auto; /* Center the input */
+}
+
+input[type="text"]:focus {
+  border-color: #4CAF50; /* Changed border color on focus */
+  outline: none; /* Removed default outline */
+}
+
+#guess {
+  font-size: 40px; /* Adjusted font size */
+  margin-top: 100px; /* Increased margin-top */
+  color: #333; /* Changed font color */
+}
+
+/* Specific styles */
+.resultParas p {
+  padding: 7px;
+  color: #333; /* Changed font color */
+}
+
+.resultParas p:nth-of-type(2) {
+  background-color: #ddd; /* Changed background color */
+}
+
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+  background-color: #fff; /* Changed background color */
+  color: #333; /* Changed font color */
+  font-size: 18px; /* Adjusted font size */
+  padding: 20px; /* Added padding */
+  border-radius: 15px; /* Added border radius */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Added box shadow */
+}
+
+h1 {
+  background-color: #4CAF50; /* Changed heading background color */
+  color: #fff; /* Changed heading font color */
+  padding: 10px; /* Added padding */
+  border-radius: 15px; /* Added border radius */
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px; /* Added margin-top */
+}
