@@ -1,5 +1,7 @@
-console.log("Hello");
 const form = document.querySelector('form')
+
+// Below line will return 0 as the submit event not occur
+// const height = parseInt(document.querySelector('#height').value);
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
