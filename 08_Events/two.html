@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Gautam Patil</h1>
+    <button id="stop">Stop</button>
+  </body>
+</html>
+<script>
+  //   const print = function () {
+  //     console.log("After two second");
+  //   };
+  //   setTimeout(print, 2000);
+  const changeTitle = function () {
+    document.querySelector("h1").innerHTML = "Patil Gautam";
+  };
+
+  const changeMe = setTimeout(changeTitle, 3000);
+  // Change the h1 tag after 3 sec
+
+  //   clearTimeout(changeMe); // use to clear the specific timeout (time out will not execute)
+
+  document.querySelector("#stop").addEventListener("click", function () {
+    clearTimeout(changeMe); // stop timeout if clicked before timeout time
+    console.log("STOPPED");
+  });
+  
+</script>
