@@ -75,17 +75,20 @@
       //     console.log("clicked owl")
       //     // e.stopPropagation() // by using this bubbling not occurs
       // }, false)
-      // // propogation/bubble - here clciked owl will print first then ul one
+
+      // // event propogation- 
       // // true/capturing - top to bottom
-      // // false/bubbling - bottom to top
+      // // false/bubbling - bottom to top - if the inner element clicked then it prints the inner element as well as the parent
+
 
       // document.getElementById('google').addEventListener('click', function(e) {
-      //     e.preventDefault()
-      //     e.stopPropagation()
+      //     e.preventDefault() // prevent from redirecting to google here
+      //     e.stopPropagation() 
       //     console.log("Google clicked");
 
       // }, false)
 
+      // getElementById can be used here
       document.querySelector("#images").addEventListener(
         "click",
         function (e) {
@@ -93,7 +96,7 @@
 
           if (e.target.tagName === "IMG") {
             const removeIt = e.target.parentNode;
-            // console.log(removeIt);
+            console.log(removeIt);
             removeIt.remove();
             // remoIt.parentNode.reoveChild(removeIt)
           }
