@@ -1,4 +1,5 @@
-// const tinder = new Object() // singlton
+// const tinder = new Object() // singleton
+
 const tinderUser = {}  // non-singleton
 
 tinderUser.id = "123abc"
@@ -57,7 +58,7 @@ const users = [
 
 // singleton - classes which can be instantiated once, and can be accessed globally
 
-// De-Structuring Object
+//! De-Structuring Object
 
 const course = {
     coursename : "os",

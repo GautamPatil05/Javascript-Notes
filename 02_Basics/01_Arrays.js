@@ -30,7 +30,6 @@ console.log("B: ", myArr);
 
 // splice
 console.log("C: ", myArr)
-const myn2 = myArr.splice(1, 3) /* includes 3rd index also manupulate original array(i.e remove 
-the indexed element from original array) */
+const myn2 = myArr.splice(1, 3) /* includes 3rd index also manipulate original array(i.e remove the indexed element from original array) */
 console.log(myn2);
 console.log("D: ", myArr);
