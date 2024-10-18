@@ -38,10 +38,10 @@ let negValue = -value
 // let str3 = str1 + str2
 // console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 1 + 2)
-// console.log(1 + 2 + "2") // make operation of two at time (string has higher preference)
+console.log("1" + 2); // string
+console.log(1 + "2"); // string
+console.log("1" + 1 + 2) // "11" -> "112" string
+console.log(1 + 2 + "2") // 1+2 = 3 -> "32" , js perform operation of two value at time (string has higher preference)
 
 // console.log(+true)
 // console.log(+false)

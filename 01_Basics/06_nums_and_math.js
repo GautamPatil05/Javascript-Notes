@@ -6,10 +6,10 @@ const balance = new Number(200);
 
 // console.log(balance.toString().length);
 
-// console.log(balance.toFixed(2))
+// console.log(balance.toFixed(2)) // 200.00
 
 const otherNumber = 34.5654
-// console.log(otherNumber.toPrecision(3));
+// console.log(otherNumber.toPrecision(3)); // 34.6
 
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN')); // for indian use 'en-IN'

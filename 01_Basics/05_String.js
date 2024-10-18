@@ -3,7 +3,8 @@ const repoCount = 8
 
 // console.log(myName + repoCount + " value");
 
-// console.log(`my name is ${myName} and repo count is ${repoCount}`); // mostly used
+//! mostly used
+// console.log(`my name is ${myName} and repo count is ${repoCount}`); 
 
 const newName = new String("Gautam-madhukar-patil");
 
@@ -32,4 +33,4 @@ console.log(url.includes("gg"))
 
 console.log(newName.split('-'));
 
-// refer console and mdn to read the fuction of string 
+// refer console and mdn to read the function of string 

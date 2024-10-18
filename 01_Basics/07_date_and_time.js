@@ -12,7 +12,7 @@ const date = new Date()
 // let myCreatedDate = new Date("2024-01-22")
 let myCreatedDate = new Date("01-22-2024")
 
-// console.log(myCreatedDate.toLocaleString());
+console.log(myCreatedDate.toLocaleString());
 
 let myTimeStamp = Date.now()
 
@@ -21,7 +21,7 @@ let myTimeStamp = Date.now()
 // console.log(Math.floor(Date.now()/1000)); // seconds
 
 let newDate = new Date()
-// console.log(newDate.getMonth() + 1)
+// console.log(newDate.getMonth() + 1) // starts with 0
 // console.log(newDate.getDate())
 // console.log(newDate.getDay()) 
 

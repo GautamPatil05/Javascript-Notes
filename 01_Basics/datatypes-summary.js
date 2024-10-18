@@ -1,11 +1,11 @@
-// Premitive
+// Primitive
 
 // 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const id = Symbol("123")
 const anotherId = Symbol("123")
 
-// console.log(id == anotherId);
+// console.log(id == anotherId); // not same
 
 const num = 123
 const num2 = 124.3
@@ -55,7 +55,7 @@ let obj = {
 
 let anotherObj = obj
 
-anotherObj.email = "xyz@gmail.com"
+anotherObj.email = "xyz@gmail.com" // changes the copied obj too
 
 console.log(obj.email);
 console.log(anotherObj.email);
