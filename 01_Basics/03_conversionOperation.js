@@ -41,7 +41,7 @@ let negValue = -value
 // console.log("1" + 2);
 // console.log(1 + "2");
 // console.log("1" + 1 + 2)
-// console.log(1 + 2 + "2")
+// console.log(1 + 2 + "2") // make operation of two at time (string has higher preference)
 
 // console.log(+true)
 // console.log(+false)

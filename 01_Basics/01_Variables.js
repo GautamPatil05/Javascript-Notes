@@ -1,6 +1,6 @@
 const accountID = 1234 
 let accountEmail = "gautam@gmail.com"
-var accountPass = "gautam123" // Not used now days
+var accountPass = "gautam123" // Not used now days, scope issues
 accountCity = "Shirpur" // Not declare this type
 let accountState; // undefined
 

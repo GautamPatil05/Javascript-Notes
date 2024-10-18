@@ -16,7 +16,7 @@ const temp = null
 
 const bigNum = 2345657658688n
 
-// Referances (Non Premitive)
+// References (Non Primitive)
 
 // Arrays, Objects, Functions
 
@@ -39,7 +39,7 @@ const myFunction = function() {
 
 // *******************************************************************************
 
-// Stack(premitive), Heap(non premititve)
+// Stack(primitive), Heap(non primitive)
 
 let myname = "Gautam";
 let anothername = myname
