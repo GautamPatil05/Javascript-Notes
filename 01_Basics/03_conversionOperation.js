@@ -11,7 +11,7 @@ console.log(valueNumber)
 // "33abc" => NaN
 // true => 1; false => 0
 
-let bool = 1
+let bool = 1 // Number
 let boolcov = Boolean (bool)
 console.log(boolcov);
 
