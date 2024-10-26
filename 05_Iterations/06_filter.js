@@ -14,7 +14,7 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // console.log(newNums);
 
 // MTD 2
-// const newNums = myNums.filter((num) => { // while using currly brackets we need use return
+// const newNums = myNums.filter((num) => { // while using curly brackets we need use return
 
 //     return num > 4;
 // })

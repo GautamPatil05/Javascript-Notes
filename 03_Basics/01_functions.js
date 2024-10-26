@@ -37,7 +37,7 @@ function loginUserMessage(username = "User"){
 // console.log(loginUserMessage("Gautam Patil"))
 // console.log(loginUserMessage("Sammy"))
 
-function calculateCartPrice(val1, val2, ...num1){ // it is rest opeartor here
+function calculateCartPrice(val1, val2, ...num1){ // it is rest operator here
     return num1
 }
 
@@ -52,8 +52,8 @@ function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
-// handleObject(user)
-handleObject({
+// handleObject(user) // passing direct object
+handleObject({       // defining object while passing
     username: "gp",
     price: 399
 })

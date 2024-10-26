@@ -7,7 +7,7 @@ const myObj = {
 // forin loop
 for (const key in myObj) {
     // console.log(`${key} is shortcut for ${myObj[key]}`);
-}
+} //js is shortcut for javascript
 
 const programming = ['js', 'rb', 'python', 'java']
 

@@ -21,7 +21,7 @@ const user = {
 // function chai() {
     // username: "Gautam",
     // console.log(this);
-    // console.log(this.username); // cannot refer function 
+    // console.log(this.username); // cannot refer in this way in function 
 // }
 // chai()
 

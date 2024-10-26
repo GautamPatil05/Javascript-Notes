@@ -22,15 +22,15 @@ map.set("IN", "India") // Map stores only unique values
 
 // for (const key of map) {
 //     console.log(key)
-// } // gives arrays for each key:value pair
+// } //! gives arrays for each key:value pair
 
 for (const [key, value] of map) {
     // console.log(key, ":", value);
-} // get separte key and value
+} // get separate key and value
 
 const myObj = {
 
-    game1 : 'Assisian Creed',
+    game1 : 'Assician Creed',
     game2 : 'Contra IV'
 }
 
