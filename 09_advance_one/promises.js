@@ -28,7 +28,7 @@
 // const promiseThree = new Promise(function(resolve, reject) {
 //     setTimeout(function() {
 //         resolve({username: "Gautam", email: "gp@example.com"})
-//         // resolve also pass the parameters
+//         // resolve also pass the parameters most of time as object
 //     }, 1000)
 // })
 
