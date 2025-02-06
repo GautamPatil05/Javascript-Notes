@@ -11,7 +11,7 @@ const balance = new Number(200);
 const otherNumber = 34.5654
 // console.log(otherNumber.toPrecision(3)); // 34.6
 
-const hundreds = 1000000
+const hundreds = 1000000    
 // console.log(hundreds.toLocaleString('en-IN')); // for indian use 'en-IN'
 
 
