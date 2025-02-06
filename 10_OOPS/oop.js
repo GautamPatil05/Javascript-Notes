@@ -19,7 +19,6 @@ function User(username, password, signedIn) {
 
     this.greetings=  function() {
         console.log(`welcome ${this.username}`);
-        
     }
     return this
 } 
